@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner {
+    color:white;
+    background-color: coral;
+    text-align: center;
+}
+
+p {font-family:'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
+body {
+    background-color: #95F8D2;
+}
+
+table{
+    background-color: #97C8E9;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+td{
+    font-family:'Nunito', sans-serif;
+}
