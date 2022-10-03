@@ -1,0 +1,14 @@
+body {
+    background-color: #F6E6CB;
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #946D2C; 
+}
+
+@media (max-width:600px){
+    header{
+        font-size:6em;
+    }
+
+}

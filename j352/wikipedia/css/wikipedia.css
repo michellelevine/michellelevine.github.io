@@ -1,5 +1,11 @@
+body {
+    background-color: #95F8D2;
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
 h1 {
-    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
@@ -9,14 +15,6 @@ h1 {
     text-align: center;
 }
 
-p {font-family:'Oswald', sans-serif;
-    font-size: 18px;
-    font-weight: lighter;
-    
-}
-body {
-    background-color: #95F8D2;
-}
 
 table{
     background-color: #97C8E9;
@@ -26,4 +24,13 @@ table{
 
 td{
     font-family:'Nunito', sans-serif;
+}
+
+.table-right{
+    float: right;
+    margin:0 0 0 1cm;
+}
+
+table img{
+    width: 250px;
 }
