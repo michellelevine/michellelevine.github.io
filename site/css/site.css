@@ -1,11 +1,36 @@
 body{
     background-color: #E0E8EA;
     color: #4D5D60;
-    font-family: oswald, arial, sans-serif;
+    font-family: 'oswald', arial, sans-serif;
+    margin-left: 1.2em;
+    margin-right:1.2em;
 }
 
 h3{
-    font-family: oswald, arial, sans-serif;
     font-weight: bolder;
     text-align: center;
+    color: #2B4890; 
+    
+    
 }
+h5{
+    color: #2B4890;
+font-weight: lighter;
+
+}
+
+h4{
+    color: #9094A0; 
+   
+
+}
+
+footer{
+    position:absolute;
+    background-color: #c2c9ca;
+    bottom:0;
+    width: 100%;
+    height: 3.5rem;
+}
+
+
