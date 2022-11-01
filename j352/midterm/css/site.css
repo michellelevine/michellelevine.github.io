@@ -35,7 +35,6 @@ footer{
     font-weight: lighter;
 }
 .container{
-    max-width: 550px;
     background-color:#EAEAEA;
     margin-top: 1.7em;
     margin-bottom: 1.7em;
@@ -61,6 +60,10 @@ nav{
 graphic-b{
     border-bottom: #9DB4AB;
     border-style: dashed;
+}
+
+.ex1{
+    text-align: center;
 }
 
 @media (max-width:600px){
