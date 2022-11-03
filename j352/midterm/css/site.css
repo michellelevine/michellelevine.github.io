@@ -2,51 +2,59 @@ body{
     background-color: #f4f5f8;
     color: #152128;
     font-family: 'Literata', serif;
-    margin-left: 1.2em;
-    margin-right:1.2em;
+    font-size: 15px;
 }
 
 header {
     font-family: 'Work Sans', sans-serif;
-    margin-top: 100px;
-    margin-bottom:200px;
+    margin: 10px 1.2em 20px;
     text-transform: uppercase;
     text-align: center;
-
 }
 h1.title{
-    padding-bottom: 50px;
-    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 5px;
     text-transform: uppercase;
+    font-size: 15px;
 }
 h1.block
 {
     display:block;
     letter-spacing: 5px;
-    font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: larger;
 }
 p.name{
     font-weight: lighter;
+    font-size: 15px;
+}
+
+h2{
+    padding-bottom: 30px;
+    font-size: 15px;
 }
 footer{
     font-family: 'Work Sans', sans-serif;
     font-weight: lighter;
 }
-.container{
+
+
+.graphic-a{
     background-color:#EAEAEA;
     margin-top: 1.7em;
     margin-bottom: 1.7em;
-    
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
 }
 div.container-fluid{
   max-width:550px;
 }
 
 nav{
+    padding-top: 3px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    font-size: 2em;
 }
 
 .img-fluid{
@@ -57,15 +65,30 @@ nav{
     padding-bottom: 1.2em;
 }
 
-graphic-b{
-    border-bottom: #9DB4AB;
-    border-style: dashed;
+div.graphic-b{
+    border-bottom: 1px dashed #9DB4AB;
+    max-width: 550px;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    margin-top: 1.7em;
+    margin-bottom: 1.7em;
 }
 
 .ex1{
     text-align: center;
 }
+.center{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+a{
+    color:black;
+}
 
+/*for tablet*/
 @media (max-width:600px){
     header{
         margin-top: 75px;
@@ -74,5 +97,16 @@ graphic-b{
     img-fluid-1{
         margin: 1em;
     }
+    nav{
+        font-size: .5em;
+    }
     
+}
+/*for mobile*/
+@media (max-wdith:480px){
+    img.center{ max-width:100%;
+        height:auto;
+
+    }
+
 }
