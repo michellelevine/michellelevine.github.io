@@ -1,0 +1,24 @@
+body{
+    margin: 1px;
+    font-family: 'Barlow', sans-serif;
+    background-color: #FCFCF0;
+    color:#151D5A;
+}
+
+header{
+    background-color: #151D5A;
+    color: #FCFCF0;
+    font-family: 'Rubik', sans-serif;
+}
+
+main{
+    margin: 10px 1.2em 20px;
+    max-width:550px;
+    align-items: center;
+
+}
+
+caption{
+    font-family: 'Heebo', sans-serif;
+
+}
