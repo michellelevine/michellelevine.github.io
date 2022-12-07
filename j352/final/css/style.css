@@ -39,6 +39,9 @@ div.container-fluid{
 .graphic-c{
     padding-bottom: 5px;
 }
+iframe{
+    padding:2px;
+}
 
 footer{
     font-weight: lighter;
