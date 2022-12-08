@@ -15,7 +15,7 @@ header{
 
 h2{
     font-weight: lighter;
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 1em;
 }
 
@@ -24,20 +24,21 @@ main{
     max-width:550px;
     padding-top: 8px;
 }
-
-div.container-fluid{
+div{
     align-items: center;
 }
+
 
 .caption{
     font-family: 'Heebo', sans-serif;
     font-weight: lighter;
     font-size: smaller;
     max-width: 400px;
+    padding-bottom:5px;
 }
 
-.graphic-c{
-    padding-bottom: 5px;
+.graphic-c, .spotify{
+    padding: 5px 2px;
 }
 iframe{
     padding:2px;
@@ -46,4 +47,15 @@ iframe{
 footer{
     font-weight: lighter;
     font-size: smaller;
+}
+
+@media (max-width:600px){
+    header{
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+h2, h1{ 
+    font-size: .5em;
+}
+
 }
