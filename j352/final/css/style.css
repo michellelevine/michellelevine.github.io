@@ -21,24 +21,22 @@ h2{
     border-top: solid #FCFCF0;
 }
 .article{
-   text-align: center;
-    margin: 10px 1.2em 20px;
     max-width:650px;
     padding-top: 60px;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
 }
 
 
 .caption{
     font-family: 'Heebo', sans-serif;
     font-weight: lighter;
-    font-size: smaller;
-    max-width: 400px;
+    font-size: 12px;
     padding-bottom:5px;
 }
 
-.graphic-c, .spotify{
-    padding: 5px 2px;
+.graphic-c, .spotify, .graphic-p{
+    padding: 10px 2px;
 }
 iframe{
     padding:2px;
