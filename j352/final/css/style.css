@@ -13,20 +13,19 @@ header{
     text-align: center;
     font-size: 1.5em;
 }
-p{
-    align-items: center;
-}
+
 h2{
     font-weight: lighter;
     padding-top: 30px;
     font-size: 1em;
     border-top: solid #FCFCF0;
 }
-
-main{
+.article{
+   text-align: center;
     margin: 10px 1.2em 20px;
     max-width:650px;
     padding-top: 60px;
+    align-items: center;
 }
 
 
@@ -48,6 +47,7 @@ iframe{
 footer{
     font-weight: lighter;
     font-size: smaller;
+    align-items: center;
 }
 
 @media (max-width:600px){
